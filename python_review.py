@@ -10,7 +10,7 @@ even_days=[]
 for i in range(len(temperatures)):
 	if temperatures[i]%2 ==0: 
 		good_days_count +=1
-		even_days.append(days_of_the_week[i])
+		even_days.append(days_of_the_week(i))
 
 highest_temp=max(temperatures)
 lowest_temp=min(temperatures)
